@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.votingapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.votingapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.votingapp.NewPoll"
+            android:label="@string/title_activity_new_poll" >
+        </activity>
+        <activity
+            android:name="com.example.votingapp.PreviousPolls"
+            android:label="@string/title_activity_previous_polls" >
+        </activity>
+        <activity
+            android:name="com.example.votingapp.CreateGroup"
+            android:label="@string/title_activity_create_group" >
+        </activity>
+        <activity
+            android:name="com.example.votingapp.ViewGroups"
+            android:label="@string/title_activity_view_groups" >
+        </activity>
+        <activity
+            android:name="com.example.votingapp.OngoingPoll"
+            android:label="@string/title_activity_ongoing_poll" >
+        </activity>
+        <activity
+            android:name="com.example.votingapp.PollResults"
+            android:label="@string/title_activity_poll_results" >
+        </activity>
+        <activity
+            android:name="com.example.votingapp.OneGroup"
+            android:label="@string/title_activity_one_group" >
+        </activity>
+    </application>
+
+</manifest>
